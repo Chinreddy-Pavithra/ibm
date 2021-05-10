@@ -34,8 +34,9 @@
             '$custname','$email','$currentbalance','$pwd1')";
           
         if(mysqli_query($conn, $sql)){
-           echo '<script>alert("Welcome to Yours Banak!\n"+custname)</script>';
-  
+           echo "<script> alert('Welcome to BUDDY Bank ');
+                                     window.location='viewcustomers.php';
+                           </script>";
             //echo nl2br("\n$first_name\n $last_name\n "
                 //. "$gender\n $address\n $email");
         } else{
