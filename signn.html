@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>User Registration</title>
+	<link rel="stylesheet" type="text/css" href="signstyle.css">
+  </head>
+ <body>
+    <div class="header">
+	   <h2>Create Account</h2>
+	</div>
+<form method="post" action="signup.php">
+	<div class="input-group">
+	  <label>Customer Id</label>
+	  <input type="text" name="custid">
+	</div>
+	<div class="input-group">
+	  <label>Customer Name</label>
+	  <input type="text" name="custname">
+	</div>
+	<div class="input-group">
+	  <label>E-mail</label>
+	  <input type="text" name="email">
+	</div>
+	<div class="input-group">
+	  <label>Balance</label>
+	  <input type="text" name="balance">
+	</div>
+	<div class="input-group">
+	  <label>Password</label>
+	  <input type="password" name="pwd">
+	</div>
+	<div class="input-group">
+	 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <button type="submit" name="createaccount" class="btn">Create</button>
+	 &emsp;&emsp;&emsp;&emsp; <button type="submit" name="createaccount" class="btn"><a href="bank.php">Back</a></button>
+
+	</div>
+    <p>
+	Already a member?&nbsp;&nbsp;&nbsp;&nbsp;<a href="loginn.php">Login</a>
+	</p>
+</form>
+ </body>
+</html>
