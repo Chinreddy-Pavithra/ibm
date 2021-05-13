@@ -34,7 +34,7 @@
 	</div>
 <div class="input-group">
 	 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <button type="submit" name="login_user" id="log" class="btn">Login</button>
-	 &emsp;&emsp;&emsp;&emsp; <button type="submit" name="createaccount" class="btn"><a href="bank.php">Back</a></button>
+	 &emsp;&emsp;&emsp;&emsp; <button type="submit" name="createaccount" class="btn"><a href="index.php">Back</a></button>
 
 	</div>
     <p>
@@ -44,33 +44,3 @@
 </body>
 </html>
 
-<!--
-
-<body>
-
-    <div class="Container">
-        <div class="login">
-            <form action="loginn.php" method="post">
-			<?php include('errors.php'); ?>
-                <div>
-                    <label for="customer  id">Customer Id:</label>
-                    <input type="text" name="custid" title="Enter customer id">
-                </div>
-
-                <div>
-                    <label for="password">Password:</label>
-                    <input type="password" name="password">
-                </div>
-
-                <div>
-                    <button type="submit" name="login_user" id="log" class="log">Login</button>
-                </div>
-
-            </form>
-            <p class="goto">Doesn't have an account? <a href="signup.html" style="text-decoration:none;color:#ff8900;font-weight: 600;
-    font-size: 20px;">Register Here</a></p>
-        </div>
-    </div>
-</body>
-
-</html>
