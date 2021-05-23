@@ -22,7 +22,7 @@ button{
 			transform: scale(1.1);
 			color:white;
 		}
-.content-table {
+ table {
   border-collapse: collapse;
   margin: 25px 0;
   font-size: 1em;
@@ -32,14 +32,14 @@ button{
   overflow: hidden;
   }
 
-.content-table thead tr {
+thead tr {
   background-color: #009879;
   color: #ffffff;
   
   font-weight: bold;
 }
 
-.content-table th
+th
 {
 	padding: 12px 7px;
 }
@@ -47,22 +47,41 @@ button{
   padding: 5px 6px;
 }
 
-.content-table tbody tr {
+ tbody tr {
   border-bottom: 1px solid #dddddd;
 }
 
-.content-table tbody tr:nth-of-type(even) {
+tbody tr:nth-of-type(even) {
   background-color: #f3f3f3;
 }
 
-.content-table tbody tr:last-of-type {
+ tbody tr:last-of-type {
   border-bottom: 2px solid #009879;
 }
 
-.content-table tbody tr.active-row {
+tbody tr.active-row {
   font-weight: bold;
   color: #009879;
 }
+button{
+			border:none;
+			background: #d9d9d9;
+		}
+	    button:hover{
+			background-color:#777E8B;
+			transform: scale(1.1);
+			color:white;
+		}
+		button{
+			border:none;
+			background: #d9d9d9;
+		}
+	    button:hover{
+			background-color:#777E8B;
+			transform: scale(1.1);
+			color:white;
+		}
+
 
 </style>
   </head>
